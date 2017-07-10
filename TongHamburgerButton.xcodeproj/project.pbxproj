@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220D8A1B136A87D007405B34 /* libPods-TongHamburgerButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA36C3F0160CAD1EAF9F8428 /* libPods-TongHamburgerButton.a */; };
 		5D18FD011EEA9CA700B13142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FD001EEA9CA700B13142 /* AppDelegate.swift */; };
 		5D18FD031EEA9CA700B13142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FD021EEA9CA700B13142 /* ViewController.swift */; };
 		5D18FD061EEA9CA700B13142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18FD041EEA9CA700B13142 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D34B9B70024B42D0598E1C /* Pods-TongHamburgerButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongHamburgerButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TongHamburgerButton/Pods-TongHamburgerButton.debug.xcconfig"; sourceTree = "<group>"; };
 		5D18FCFD1EEA9CA700B13142 /* TongHamburgerButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongHamburgerButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D18FD001EEA9CA700B13142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D18FD021EEA9CA700B13142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		5D18FD1F1EEA9CA700B13142 /* TongHamburgerButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongHamburgerButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D18FD231EEA9CA700B13142 /* TongHamburgerButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongHamburgerButtonUITests.swift; sourceTree = "<group>"; };
 		5D18FD251EEA9CA700B13142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18FD311EEA9D5B00B13142 /* TongHamburgerButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TongHamburgerButton-Bridging-Header.h"; sourceTree = "<group>"; };
+		6277F87C83753AF213A2A2C7 /* Pods-TongHamburgerButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongHamburgerButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-TongHamburgerButton/Pods-TongHamburgerButton.release.xcconfig"; sourceTree = "<group>"; };
+		DA36C3F0160CAD1EAF9F8428 /* libPods-TongHamburgerButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TongHamburgerButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220D8A1B136A87D007405B34 /* libPods-TongHamburgerButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51BF12628B811F6D03C3BA3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA36C3F0160CAD1EAF9F8428 /* libPods-TongHamburgerButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D18FCF41EEA9CA700B13142 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,8 @@
 				5D18FD171EEA9CA700B13142 /* TongHamburgerButtonTests */,
 				5D18FD221EEA9CA700B13142 /* TongHamburgerButtonUITests */,
 				5D18FCFE1EEA9CA700B13142 /* Products */,
+				696D272A8339EAE9CBB48D0A /* Pods */,
+				51BF12628B811F6D03C3BA3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +122,7 @@
 				5D18FD0C1EEA9CA700B13142 /* LaunchScreen.storyboard */,
 				5D18FD0F1EEA9CA700B13142 /* Info.plist */,
 				5D18FD071EEA9CA700B13142 /* TongHamburgerButton.xcdatamodeld */,
+				5D18FD311EEA9D5B00B13142 /* TongHamburgerButton-Bridging-Header.h */,
 			);
 			path = TongHamburgerButton;
 			sourceTree = "<group>";
@@ -128,6 +145,15 @@
 			path = TongHamburgerButtonUITests;
 			sourceTree = "<group>";
 		};
+		696D272A8339EAE9CBB48D0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D34B9B70024B42D0598E1C /* Pods-TongHamburgerButton.debug.xcconfig */,
+				6277F87C83753AF213A2A2C7 /* Pods-TongHamburgerButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D18FD281EEA9CA700B13142 /* Build configuration list for PBXNativeTarget "TongHamburgerButton" */;
 			buildPhases = (
+				7302C90ED2AA92E78AA39A17 /* [CP] Check Pods Manifest.lock */,
 				5D18FCF91EEA9CA700B13142 /* Sources */,
 				5D18FCFA1EEA9CA700B13142 /* Frameworks */,
 				5D18FCFB1EEA9CA700B13142 /* Resources */,
+				4E32F1C42D744EB93362E890 /* [CP] Embed Pods Frameworks */,
+				38ED2EDEF4F3DC0210FF0F35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +225,7 @@
 				TargetAttributes = {
 					5D18FCFC1EEA9CA700B13142 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					5D18FD131EEA9CA700B13142 = {
@@ -256,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38ED2EDEF4F3DC0210FF0F35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TongHamburgerButton/Pods-TongHamburgerButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E32F1C42D744EB93362E890 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TongHamburgerButton/Pods-TongHamburgerButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7302C90ED2AA92E78AA39A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D18FCF91EEA9CA700B13142 /* Sources */ = {
@@ -414,24 +492,31 @@
 		};
 		5D18FD291EEA9CA700B13142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D34B9B70024B42D0598E1C /* Pods-TongHamburgerButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TongHamburgerButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongHamburgerButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TongHamburgerButton/TongHamburgerButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5D18FD2A1EEA9CA700B13142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6277F87C83753AF213A2A2C7 /* Pods-TongHamburgerButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TongHamburgerButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongHamburgerButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TongHamburgerButton/TongHamburgerButton-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +594,7 @@
 				5D18FD2A1EEA9CA700B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D18FD2B1EEA9CA700B13142 /* Build configuration list for PBXNativeTarget "TongHamburgerButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +603,7 @@
 				5D18FD2D1EEA9CA700B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D18FD2E1EEA9CA700B13142 /* Build configuration list for PBXNativeTarget "TongHamburgerButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +612,7 @@
 				5D18FD301EEA9CA700B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
