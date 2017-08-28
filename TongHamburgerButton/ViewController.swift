@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         self.hamburgerButton?.layer.cornerRadius = 75
         self.view.addSubview(hamburgerButton!)
-        self.hamburgerButton?.addTarget(self, action:#selector(ViewController.didTapHamburgerButton as (ViewController) -> () -> ()), for: UIControlEvents.touchUpInside)
+        self.hamburgerButton?.addTarget(self, action:#selector(didTapHamburgerButton), for: UIControlEvents.touchUpInside)
         //三道杠
         let sectionWidth:CGFloat = 80.0
         let sectionHeight:CGFloat = 11.0
